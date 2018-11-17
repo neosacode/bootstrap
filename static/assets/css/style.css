@@ -69,7 +69,7 @@ body {
 .card-box {
   padding: 20px;
   -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
   -moz-border-radius: 5px;
   background-clip: padding-box;
   margin-bottom: 20px;
@@ -289,7 +289,7 @@ File: Menu
   min-height: 60px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); }
   #topnav .topbar-main {
-    background-color: #2b3d51; }
+    background-color: #0f141d; }
     #topnav .topbar-main .badge {
       position: absolute;
       top: 12px;
@@ -862,7 +862,9 @@ File: Menu
   font-size: 20px;
   margin-bottom: 0;
   margin-top: 0;
-  line-height: 70px; }
+  line-height: 70px;
+  color: #FFF;
+}
 
 button:focus {
   outline: none !important; }
@@ -908,14 +910,14 @@ a.btn:focus {
   color: #ffffff; }
 
 .btn-primary {
-  background-color: #039cfd;
-  border-color: #039cfd; }
+  background-color: #201935;
+  border: 0; }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
 .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary {
-  background-color: #0283d6;
-  border-color: #0283d6;
+  background-color: #2d2054;
+  border: 0;
   color: #ffffff; }
 
 .btn-success {
@@ -18689,7 +18691,6 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
    Accounts pages
 ============= */
 .account-pages {
-  background: #64b0f2;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -18708,7 +18709,7 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
     margin: 20px 15px; }
   .wrapper-page .card-box {
     box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
-    border: 5px solid #64b0f2; }
+    border: 5px solid #201935; }
   .wrapper-page .logo {
     font-size: 24px;
     line-height: 36px;
@@ -18738,4 +18739,12 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 
 .bd-t-0 {
   border-top: 0;
+}
+
+.nav-tabs .nav-link {
+  color: #FFF;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0f141d;
 }
